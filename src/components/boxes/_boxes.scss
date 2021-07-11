@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap'); //Roboto bold
+
+$background-color: #222122;
+$background-boxes: #d8d3d3;
+$price-color: #596938;
+
+.boxesContainer {
+    background-color:white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    width: 25%;
+    height: 300px; 
+    flex-grow: 1;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.prices {
+    color: $price-color;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+}
+
+.one {
+    margin-left: 110px;
+    background-image: url("../../images/pizza1.jpg");
+    filter: grayscale(50%);
+}
+
+.one:hover, .three:hover, .five:hover {
+    filter: grayscale(80%);
+    transition: .3;
+}
+
+.hoverImageText, .pizzaPrice {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3;
+    margin-top: -10px;
+}
+
+.pizzaPrice {
+    font-size: 20px;
+}
+
+.two {
+    background-color: $background-boxes;
+    color: $background-color;
+}
+
+.three {
+    margin-right: 110px;
+    background-image: url("../../images/pizza2.jpg");
+    filter: grayscale(50%);
+}
+
+.four {
+    margin-left: 110px;
+    background-color: $background-boxes;
+    color: $background-color;
+}
+
+.five {
+    background-image: url("../../images/pizza3.jpg");
+    filter: grayscale(50%);
+}
+
+.six {
+    margin-right: 110px;
+    background-color: $background-boxes;
+    color: $background-color;
+}
+
+.titles {
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.textInBoxes {
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+// Responsive
+@media (max-width: 878px) {
+    .boxes {
+      flex: 100%;
+    }
+    .one, .four {
+        margin-left: 0;
+    }
+    .three, .six {
+        margin-right: 0;
+    }
+  }

@@ -1,0 +1,114 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+ 
+ $text-color:white;
+ $border: #596938;
+ $text-font:Courier;
+ $header-font: 'Dancing Script', cursive;
+ 
+ 
+ .main-container {
+   background: url("https://cdn.pixabay.com/photo/2014/10/22/16/38/ingredients-498199_1280.jpg")
+   repeat fixed 100% ;
+   box-shadow: inset 0 0 0 1000px rgba(50,50,64,0.53);
+   margin: 0px;
+   padding: 0px;
+   box-sizing: 0px;
+   border: 1px solid black;
+   background-size: cover; 
+ }
+
+ .menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0px auto;
+  opacity: 1;
+  position: relative;
+ }
+
+ .header {
+   color:$text-color;
+   font-family: $header-font;
+   font-size: 60px;
+   margin-top: 50px;
+ }
+ 
+ .menu-pizza {
+   background: rgba(25,25,27,0.68);
+   margin: 0px auto;
+   border-radius: 20px;
+   margin-bottom: 5vh;
+   margin-top: 50px;  
+ }
+
+ .menu-ala-carte {
+   width: 50%;
+   margin: 0px auto;
+   margin-top: 50px;
+   margin-bottom: 100px;
+   background: rgba(25,25,27,0.68);
+   border-radius: 20px;
+   opacity: 1;
+   position: relative;
+ }
+
+ .list  {
+   padding: 50px;
+ }
+ 
+ .line {
+   border: 1px solid $border;
+ }
+
+ .pizza {
+   color: $text-color;
+   font-family:$text-font;
+   font-size: 20px;
+   font-weight: bold;
+   list-style: none;
+   margin-top: 20px;
+ }
+ 
+ .ingredients {
+   color: $text-color;
+   font-family:$text-font;
+   font-size: 15px;
+   list-style: none;
+   margin-top: 20px;
+ }
+ 
+ 
+ @media screen and (max-width: 1380px) {
+  .menu-pizza {
+   margin-bottom: 5vh;
+  }
+  .menu-ala-carte {
+    width: 80%
+  }
+ }
+ @media screen and (max-width: 700px) {
+   .pizza {
+    font-size: 4vw;
+   }
+   .ingredients {
+     font-size: 4vw;
+   }
+   .menu-pizza {
+     width: auto;
+   }
+   .menu-ala-carte {
+     width: 100%
+   }
+  
+  }
+ 
+  @media screen and (max-width: 500px) {
+   
+   .menu-pizza {
+     width: 100%;
+   }
+  
+  }
+

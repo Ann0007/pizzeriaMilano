@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.footer-container{
+    padding-bottom: 50px;
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo-space-in-footer{
+    width: 100%;
+    height: 70px;
+    background-color: #5b614c;
+}
+
+.scroll-up-link{
+    float: right;
+    margin-top: 20px;
+    margin-right: 50px;
+    transition: transform .3s; 
+}
+
+.scroll-up-link:hover{
+    transform: scale(1.3);  
+    cursor: pointer;
+}
+
+.logo{
+    float: left;
+    height: 50px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.footer-info{   
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+.facebook-icon{
+    color: white;
+    margin-right: 20px;
+}
+
+.facebook-icon:hover{
+    color: #596938 !important;
+    cursor: pointer !important;
+}
+
+.instagram-icon{
+    color: white;
+}
+
+.instagram-icon:hover{
+    color: #596938 !important;
+    cursor: pointer !important;
+}
+
+.visit-us{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.contact-header{
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+.mail-header{
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+.contact{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    text-align: justify;
+}
+
+.phone-header{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px; 
+}
+
+.phone-number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 6px; 
+    text-align: center;
+}
+
+.opening-header{
+    font-weight: bold;
+    letter-spacing: 4px; 
+}
+
+.openingHours{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px; 
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1380px){
+    .footer-container{
+        width: 100%
+    }
+}
+@media screen and (max-width: 700px){
+   
+}
+@media screen and (max-width: 500px){
+    .footer-container {
+        width: 100%;
+    }
+    .footer-info{   
+        display: flex;
+        margin-top: 40px;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .logo{
+        height: 40px;
+        margin-left: 30px;
+    }
+
+    .logo-space-in-footer{
+        height: 60px;
+    }
+
+    .visit-us{
+        letter-spacing: 3px; 
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .social-media-icons{
+        margin-right: 280px;
+    }
+
+    .facebook-icon{
+        color: white;
+        margin-right: 20px;
+    }
+    
+    .facebook-icon:hover{
+        color: #596938 !important;
+        cursor: pointer !important;
+    }
+    
+    .instagram-icon{
+        color: white;
+    }
+    
+    .instagram-icon:hover{
+        color: #596938 !important;
+        cursor: pointer !important;
+    }
+
+    .contact-header{
+        font-weight: bold;
+        letter-spacing: 3px; 
+    }
+    
+    .mail-header{
+        font-weight: bold;
+        letter-spacing: 3px; 
+    }
+    
+    .contact{
+        letter-spacing: 4px; 
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .phone-header{
+        font-size: 15px;
+        font-weight: bold;
+        letter-spacing: 2px; 
+    }
+    
+    .phone-number{
+        letter-spacing: 6px; 
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .opening-header{
+        letter-spacing: 3px;  
+    }
+
+    .openingHours{
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+    
+}

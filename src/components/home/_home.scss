@@ -1,0 +1,146 @@
+//imported font "Dancing script" for logo and Roboto for text
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+//background color for links on hover
+:root {
+    --mainColor: #596938;
+}
+
+.start-container{
+    height: 98vh;
+    
+}
+
+.image-header {
+    margin: 0;
+    padding: 0;
+    /** background image on home */
+    background-image: url("../../images/home-pizza.jpg");
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-size: cover;
+    height: 100%;
+    filter: grayscale(60%);
+}
+
+.pizzeria{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw;
+    margin: 0px;
+    padding-top: 15vh;
+    color: white;
+    letter-spacing: 8px;
+    position: relative;
+}
+
+.namePadova{
+    font-size: 16vw;
+    margin-top: -50px;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    position: relative;
+}
+
+.navigation-links{
+    list-style-type: none;
+    overflow: hidden; 
+    margin-top: -30px;
+}
+
+.landingpage-navigation{
+    text-decoration: none !important;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    padding: 21px;
+    cursor: pointer;
+}
+
+.landingpage-navigation:hover {
+    font-weight: bolder !important;
+    text-decoration: none !important;
+}
+
+//CSS for the shape divider
+.custom-shape-divider-bottom-1607071919 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1607071919 svg {
+    position: relative;
+    display: block;
+    width: calc(290% + 1.3px);
+    height: 120px;
+   
+}
+
+.custom-shape-divider-bottom-1607071919 .shape-fill {
+    fill:  white;
+    margin-top: 161px;
+}
+
+.whiteSpace{
+    height: 40px;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 1380px){
+    .image-header{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 700px){
+    .image-header{
+        width: 100%
+    }
+    .pizzeria{
+        font-size: 5vw; 
+    }
+    .namePadova{
+        font-size: 20vw;
+    }
+    .landingpage-navigation{
+        font-size: 3vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .image-header{
+        width: 100%;
+        height: 450px;
+    }
+    .pizzeria{
+        font-size: 6vw; 
+        margin-bottom: -10px;
+    }
+    .namePadova{
+        font-size: 25vw;
+    }
+    .landingpage-navigation{
+        font-size: 4vw;
+    }
+    .whiteSpace{
+        height: 20px;
+    }
+    .navigation-links{
+        list-style-type: none;
+        overflow: hidden; 
+        margin-top: -20px;
+    }
+    .landingpage-navigation{
+        font-size: 3vw;
+        padding: 15px;
+    }
+    
+}

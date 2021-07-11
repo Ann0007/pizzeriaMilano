@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.topImage {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/about.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(50%);
+}
+
+.aboutUsDiv {
+    width: 85%;
+    height: 550px;
+    background-color: #00000095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv, .rightDiv {
+    width: 50%;
+    height: 550px;
+}
+
+.imageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chefImage {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.aboutUsTitle {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.textInRightDiv {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.welcomeText {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.ecoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+} 
+
+.ecoTitle {
+    color: #000000;
+    margin: 0;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.ecoTextDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.ecoHrLine {
+    width: 80%;
+    border: 0;
+    height: 2px;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.ecoText {
+    width: 60%;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.ecoImage {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin-bottom: 40px;
+    background-image: url("../../images/veg.jpg");
+    filter: grayscale(70%);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.contactInfoSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.googleSectionLeft {
+    width: 50%;
+}
+
+.contactUs {
+    color: #000000;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.googleMaps {
+    padding: 20px;
+    width: 80%;
+    height: 450px; 
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.underSectionRight {
+    width: 50%;
+    height: 500px;
+}
+
+.phoneNr {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.sunday {
+    margin-bottom: 60px;
+}
+
+.booking {
+    font-size: 15px;
+    color: #fff;
+    background-color: #000000;
+    margin: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: none;
+}
+
+.booking:hover {
+    background-color: #596938;
+    transition: 0.3s;
+}

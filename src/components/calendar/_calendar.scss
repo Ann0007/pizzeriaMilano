@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.calendarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.chooseDate {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+}
+
+.confirmBtn {
+    margin: 20px; 
+    font-size: 15px;
+    color: #fff;
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 8px;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    width: 20%;
+}
+
+.confirmBtn:hover {
+    background-color: #596938;
+    transition: 0.3s;
+}
+
+.confirmText {
+    background-color: rgb(158, 71, 71); 
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    //font-weight: bold;
+    color: white;
+}

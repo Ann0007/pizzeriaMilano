@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    color: #000000;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.formTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #d8d3d3;
+}
+
+input[type=text], [type=email] {
+    width: 60%;
+    padding: 5px 5px 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+}
+
+select{
+    width: 60%;
+    padding: 5px 5px 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: none;
+    background-color: white; 
+}
+
+.choose{
+    background-color:  #c5bfbf;
+    width: 60%;   
+    border-radius: 1%; 
+}
+
+.btn-secondary{
+    background-color: black !important;
+}
+
+.selectBoxes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.pickPizza a{
+    color: black !important;
+}
+
+.pizzaType a{
+    color: black !important;
+} 
+
+.numberOfPizza a{
+    color: black !important;
+}
+
+.dropdown{
+  margin: 20px;
+}
+.choosenItemBox{
+    background-color: rgb(245, 244, 244);
+    margin:20px;
+}
+.choosenTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+.choosenValues{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    padding: 15px;
+}
+
+.valueItem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.chooseButton{
+    width: 50px;
+    height: 20px;
+    font-size: 9px;
+    color: #fff;
+    background-color: #000000;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 0;
+    margin-top: 1px;
+}
+
+.chooseButton:hover{
+    background-color: #596938;
+    transition: 0.3s;
+}
+
+textarea {
+    width: 60%;
+    height: 150px;
+    padding: 5px 5px 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    resize: none;
+    margin-top: 7px !important;
+    margin-bottom: 20px !important;
+}
